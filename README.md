@@ -1,4 +1,4 @@
-# ColorPrinter
+# ColorPrint
 
 ColorPrinter 是一个简单而灵活的 Go 语言包，用于在终端输出彩色文本。该包支持多种前景色、背景色和文字样式，旨在增强命令行应用程序的可读性和美观性。
 
@@ -89,11 +89,6 @@ func main() {
 - `Bold(text string) string`：返回加粗文本。
 - `Italic(text string) string`：返回斜体文本。
 - `Underline(text string) string`：返回带下划线文本。
-
-### 配置管理
-
-- `SetColorEnabled(enabled bool)`：设置是否启用颜色输出。
-- `GetColorEnabled() bool`：获取当前颜色输出是否启用的状态。
 
 ## 贡献
 
